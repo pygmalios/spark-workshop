@@ -1,0 +1,18 @@
+apply plugin: "scala"
+
+group = "com.pygmalios"
+version = "1.0.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def scalaVersion = "2.10"
+    def sparkVersion = "1.4.1"
+
+    compile "org.scala-lang:scala-library:$scalaVersion.6"
+
+    compile "org.apache.spark:spark-core_$scalaVersion:$sparkVersion"
+    compile "org.apache.spark:spark-streaming_$scalaVersion:$sparkVersion"
+}
