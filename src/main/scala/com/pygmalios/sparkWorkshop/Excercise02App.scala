@@ -1,10 +1,7 @@
 package com.pygmalios.sparkWorkshop
 
-import org.apache.spark.rdd.RDD
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-
-import scala.collection.mutable
 
 /**
   * Excercise 2: streaming word count
