@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object Excercise01App extends App {
   // Create Spark context
   val sparkConf = new SparkConf()
-    .setAppName("Excercise 1: word count")
+    .setAppName("Pygmalios Spark workshop")
     .setMaster("local[*]")
   val sc = new SparkContext(sparkConf)
 
