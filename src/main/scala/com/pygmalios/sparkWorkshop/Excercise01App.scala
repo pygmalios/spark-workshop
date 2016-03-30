@@ -1,6 +1,5 @@
-package com.pygmalios.sparkWorkshop.excercise01
+package com.pygmalios.sparkWorkshop
 
-import com.pygmalios.sparkWorkshop.ExcerciseResources
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -10,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object Excercise01App extends App {
   // Create Spark context
   val sparkConf = new SparkConf()
-    .setAppName("Excercise 01: Word count")
+    .setAppName("Excercise 1: word count")
     .setMaster("local[*]")
   val sc = new SparkContext(sparkConf)
 
